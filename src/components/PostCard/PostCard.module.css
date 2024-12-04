@@ -7,23 +7,32 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 2rem;
 }
 
 
 .card_body {
     padding: 1rem;
+
 }
 
 .card_title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    word-wrap: break-word;
 }
 
 .card_description {
+    max-height: 180px;
     margin-bottom: 2rem;
+    display: block;
+    overflow: auto;
     line-height: 1.5;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .tags {
